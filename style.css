@@ -17,6 +17,11 @@ body {
 	
 }
 
+element {
+ 	 property: value;
+ 	 another-property: another-value;
+}
+
 .header {
 	height: 200px;
 	width: 100%;
