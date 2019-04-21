@@ -83,11 +83,11 @@ var Wics = ["Stanford Women in Computer Science", "0-1 hours", "50-100", "30%", 
 // }else{
     var quotes = [];
     var numQuotes = 5;
-    quotes.push("You should join Stanford Archery");
-    quotes.push("You should join O Tone");
-    quotes.push("You should join the Stanford Undergraduate Research Association");
-    quotes.push("You should join Pulse Magazine");
-    quotes.push("You should join Stanford Women in Computer Science");
+    quotes.push("You should join Stanford Archery. Learn more about this club at stanfordstudentactivities.com");
+    quotes.push("You should join O Tone. Learn more about this club at stanfordstudentactivities.com");
+    quotes.push("You should join the Stanford Undergraduate Research Association. Learn more about this club at stanfordstudentactivities.com");
+    quotes.push("You should join Pulse Magazine. Learn more about this club at stanfordstudentactivities.com");
+    quotes.push("You should join Stanford Women in Computer Science. Learn more about this club at stanfordstudentactivities.com");
     var randNum = Math.floor(Math.random() * (numQuotes));
     document.getElementById("quote").innerHTML = quotes[randNum];
 // }
