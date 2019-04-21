@@ -1,4 +1,4 @@
-$('#submit').on('click', function (e) {
+$('#changeQuote').on('click', function (e) {
 //     'use strict';
 //     /*==================================================================
 //         [ Daterangepicker ]*/
