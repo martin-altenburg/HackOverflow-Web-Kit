@@ -65,7 +65,9 @@ $('#submit').on('click', function (e) {
 //     } catch (err) {
 //         console.log(err);
 //     }
-    
+var hours = ["0-1 hours", "1-2 hours", "2-5 hours", "5-10 hours", "10+ hours"];
+var members = ["less than 10", "10-30", "30-50", "50-200", "200+"];
+
 var Stanford_Archery = ["Stanford Archery", "5-10 hours", "10-30", "30%", "athletic/recreational", "experience information community open everyone"];
 var O_tone = ["O Tone", "5-10 hours", "10-30", "40%", "music/creative arts", "community kindness family"];
 var Sura = ["Stanford Undergraduate Research Association", "1-2 hours", "10-30", "40%", "careers/pre-professional", "learn welcome community research help"];
@@ -80,5 +82,5 @@ quotes.push('\"If people don\'t agree with you, the important thing is to listen
 quotes.push('\"If you know you are on the right track, if you have this inner knowledge, then nobody can turn you off... no matter what they say.\"' + '<br>' + '– Barbara McClintock');
 quotes.push('\"Forget this world and all its troubles and if possible its multitudinous Charlatans-- everything in short but the Enchantress of Numbers.\"' + '<br>' + '– Ada Lovelace');
 var randNum = Math.floor(Math.random() * (numQuotes));
-document.getElementById("quote").innerHTML = quotes[randNum];
+document.getElementById("quote").innerHTML = "Hello World";
 })
