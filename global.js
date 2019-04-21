@@ -78,7 +78,8 @@ var Wics = ["Stanford Women in Computer Science", "0-1 hours", "50-100", "30%", 
     
 if(Media/Publications){
     document.getElementById("quote").innerHTML = "PULSE magazine";
-}
+}else if(Careers/Preprofessional){
+    document.getElementById("quote").innerHTML = "Stanford Women in Computer Science";
 else{
     var quotes = [];
     var numQuotes = 5;
