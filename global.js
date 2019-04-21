@@ -1,4 +1,4 @@
-$('#submit').on('click', function (e) {
+$('#submitB').on('click', function (e) {
     console.log("Hello world!");
     
 //     'use strict';
