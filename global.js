@@ -1,4 +1,4 @@
-(function ($) {
+$('#submit').on('click', function (e) {
     'use strict';
     /*==================================================================
         [ Daterangepicker ]*/
