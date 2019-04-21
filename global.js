@@ -1,4 +1,6 @@
 $('#submit').on('click', function (e) {
+    console.log("Hello world!");
+    
 //     'use strict';
 //     /*==================================================================
 //         [ Daterangepicker ]*/
