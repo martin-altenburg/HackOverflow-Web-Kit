@@ -66,6 +66,12 @@ $('#submit').on('click', function (e) {
 //         console.log(err);
 //     }
     
+var Stanford_Archery = ["Stanford Archery", "5-10 hours", "10-30", "30%", "athletic/recreational", "experience information community open everyone"];
+var O_tone = ["O Tone", "5-10 hours", "10-30", "40%", "music/creative arts", "community kindness family"];
+var Sura = ["Stanford Undergraduate Research Association", "1-2 hours", "10-30", "40%", "careers/pre-professional", "learn welcome community research help"];
+var Pulse = ["Pulse Magazine", "1-2 hours", "10-30", "30%", "media/publications", "creative"];
+var Wics = ["Stanford Women in Computer Science", "0-1 hours", "50-100", "30%", "careers/pre-professional", "explore open"];
+    
 var quotes = [];
 var numQuotes = 5;
 quotes.push('\"A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things.\"' + '<br>' + '– Grace Hopper');
