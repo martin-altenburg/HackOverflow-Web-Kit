@@ -76,13 +76,18 @@ var Sura = ["Stanford Undergraduate Research Association", "1-2 hours", "10-30",
 var Pulse = ["Pulse Magazine", "1-2 hours", "10-30", "30%", "media/publications", "creative"];
 var Wics = ["Stanford Women in Computer Science", "0-1 hours", "50-100", "30%", "careers/pre-professional", "explore open"];
     
-var quotes = [];
-var numQuotes = 5;
-quotes.push("You should join Stanford Archery");
-quotes.push("You should join O Tone");
-quotes.push("You should join the Stanford Undergraduate Research Association");
-quotes.push("You should join Pulse Magazine");
-quotes.push("You should join Stanford Women in Computer Science");
-var randNum = Math.floor(Math.random() * (numQuotes));
-document.getElementById("quote").innerHTML = quotes[randNum];
+if(Media/Publications){
+    document.getElementById("quote").innerHTML = "PULSE magazine";
+}
+else{
+    var quotes = [];
+    var numQuotes = 5;
+    quotes.push("You should join Stanford Archery");
+    quotes.push("You should join O Tone");
+    quotes.push("You should join the Stanford Undergraduate Research Association");
+    quotes.push("You should join Pulse Magazine");
+    quotes.push("You should join Stanford Women in Computer Science");
+    var randNum = Math.floor(Math.random() * (numQuotes));
+    document.getElementById("quote").innerHTML = quotes[randNum];
+}
 })
