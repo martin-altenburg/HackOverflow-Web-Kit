@@ -76,11 +76,11 @@ var Sura = ["Stanford Undergraduate Research Association", "1-2 hours", "10-30",
 var Pulse = ["Pulse Magazine", "1-2 hours", "10-30", "30%", "media/publications", "creative"];
 var Wics = ["Stanford Women in Computer Science", "0-1 hours", "50-100", "30%", "careers/pre-professional", "explore open"];
     
-if(Media/Publications){
-    document.getElementById("quote").innerHTML = "PULSE magazine";
-}else if(Careers/Preprofessional){
-    document.getElementById("quote").innerHTML = "Stanford Women in Computer Science";
-}else{
+// if(Media/Publications){
+//     document.getElementById("quote").innerHTML = "PULSE magazine";
+// }else if(Careers/Preprofessional){
+//     document.getElementById("quote").innerHTML = "Stanford Women in Computer Science";
+// }else{
     var quotes = [];
     var numQuotes = 5;
     quotes.push("You should join Stanford Archery");
@@ -90,5 +90,5 @@ if(Media/Publications){
     quotes.push("You should join Stanford Women in Computer Science");
     var randNum = Math.floor(Math.random() * (numQuotes));
     document.getElementById("quote").innerHTML = quotes[randNum];
-}
+// }
 })
