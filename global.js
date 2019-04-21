@@ -80,7 +80,7 @@ if(Media/Publications){
     document.getElementById("quote").innerHTML = "PULSE magazine";
 }else if(Careers/Preprofessional){
     document.getElementById("quote").innerHTML = "Stanford Women in Computer Science";
-else{
+}else{
     var quotes = [];
     var numQuotes = 5;
     quotes.push("You should join Stanford Archery");
